@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>内容作品 — Lina · 品牌与内容运营</title>
+<meta name="description" content="Lina 的自媒体与内容作品合集：短视频、品牌物料、数据报告、网页项目与 AI 创作，支持筛选与排序。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="assets/img/avatar-lina.svg">
+</head>
+<body>
+<div id="progress"></div>
+<div id="glow"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/avatar-lina.svg" alt="Lina">
+      <span class="brand-divider"></span>
+      <span class="brand-name"><b>Lina</b> · 品牌与内容运营</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="projects.html">项目</a>
+      <a href="works.html" class="active">内容作品</a>
+      <a href="about.html">关于我</a>
+    </div>
+    <button class="burger" id="burger" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">首页 <small>01</small></a>
+  <a href="projects.html">项目经历 <small>02</small></a>
+  <a href="works.html">内容作品 <small>03</small></a>
+  <a href="about.html">关于我 <small>04</small></a>
+</div>
+
+<div class="wrap page-top">
+  <section>
+    <div class="section-head reveal">
+      <span class="idx">03 / CONTENT ARCHIVE</span>
+      <h2>内容作品合集</h2>
+      <p>公司自媒体内容、品牌物料、数据报告、网页项目与 AI 创作实践都在这里。按分类筛选，或换个排序方式翻一翻。</p>
+    </div>
+
+    <div class="filter-bar reveal">
+      <div class="filters">
+        <button class="filter-btn active" data-cat="all">全部</button>
+        <button class="filter-btn" data-cat="video">短视频</button>
+        <button class="filter-btn" data-cat="brand">品牌物料</button>
+        <button class="filter-btn" data-cat="report">报告与 SOP</button>
+        <button class="filter-btn" data-cat="web">网页项目</button>
+        <button class="filter-btn" data-cat="ai">AI 创作</button>
+      </div>
+      <div class="sort-box">
+        <label for="sortSelect">排序</label>
+        <select id="sortSelect">
+          <option value="featured">精选优先</option>
+          <option value="date">最新优先</option>
+          <option value="name">按名称 A-Z</option>
+        </select>
+      </div>
+    </div>
+    <div class="count-note reveal" id="countNote"></div>
+
+    <div class="works-grid" id="worksGrid">
+
+      <div class="card work-card reveal" data-cat="video" data-date="2026-10" data-name="物博会宣传视频">
+        <div class="card-media"><img src="assets/img/covers/gen-expo.jpg" alt="物博会宣传视频封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">2026.10</span><span class="card-tag">短视频</span></div>
+        <h3>物博会宣传视频</h3>
+        <p>展会参展宣传视频：文稿撰写、拍摄统筹、剪辑与成片交付，配合物博会展前推广节奏投放。</p>
+        <div class="chips"><span>文稿</span><span>剪辑</span><span>展会推广</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="video" data-date="2026-08" data-name="资讯视频化系列 · 35 条">
+        <div class="card-media"><img src="assets/img/covers/sub-video-0.jpg" alt="资讯视频化系列封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">2025—2026</span><span class="card-tag">短视频</span></div>
+        <h3>资讯视频化系列 · 35 条</h3>
+        <p>把「货代进阶指南」这类行业干货转成可刷的短视频：选题、版面切片、视觉呈现与发布节奏一条龙，持续追踪播放量与互动率。</p>
+        <div class="chips"><span>选题转化</span><span>版面切片</span><span>数据追踪</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="video" data-date="2026-06" data-name="枫筝学堂培训视频 · 20 条">
+        <div class="card-media"><img src="assets/img/covers/lesson-video-0.jpg" alt="枫筝学堂培训视频封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">2025—2026</span><span class="card-tag">短视频</span></div>
+        <h3>「枫筝学堂」培训视频 · 20 条</h3>
+        <p>企业培训内容的全流程制作：从「海外仓业务类型」等课程选题，到拍摄、剪辑、品牌版式包装与字幕规范，输出操作文档归档飞书。</p>
+        <div class="chips"><span>拍摄</span><span>剪辑</span><span>品牌包装</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="video" data-date="2026-01" data-name="节日主题视频系列">
+        <div class="card-media"><img src="assets/img/covers/gen-festival.jpg" alt="节日主题视频封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">系列</span><span class="card-tag">短视频</span></div>
+        <h3>节日主题视频系列</h3>
+        <p>节日节点策划的公司场景宣传视频，跟进拍摄执行与成片交付，维持账号稳定更新节奏。</p>
+        <div class="chips"><span>节日策划</span><span>场景拍摄</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="brand" data-date="2026-09" data-name="公司画册中英文 2026 版">
+        <div class="card-media"><img src="assets/img/covers/gen-brochure.jpg" alt="公司画册封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">vr2.1</span><span class="card-tag">品牌物料</span></div>
+        <h3>公司画册 · 中英文 2026 版</h3>
+        <p>主导画册中英文版迭代定稿（vr2.1），覆盖公司介绍、业务线与海外仓服务板块的多主体统一呈现。</p>
+        <div class="chips"><span>中英文</span><span>定稿验收</span><span>多主体品牌</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="brand" data-date="2026-08" data-name="移动端公司介绍">
+        <div class="card-media"><img src="assets/img/work-mobile-intro.jpg" alt="移动端公司介绍" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">MOBILE</span><span class="card-tag">品牌物料</span></div>
+        <h3>移动端公司介绍</h3>
+        <p>移动端公司介绍页的内容维护与迭代：北美本土售后供应链专家定位，六大核心优势与全链路服务结构化呈现。</p>
+        <div class="chips"><span>移动端</span><span>内容结构化</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="brand" data-date="2026-07" data-name="智选英文移动端介绍">
+        <div class="card-media"><img src="assets/img/work-mobile-en.jpg" alt="MKS 智选英文移动端介绍" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">MKS</span><span class="card-tag">品牌物料</span></div>
+        <h3>「枫筝智选」英文移动端介绍</h3>
+        <p>面向北美华人的售后供应链服务介绍：Contact Us、核心优势、服务板块与本地资源的中英双语文案与版面组织。</p>
+        <div class="chips"><span>英文物料</span><span>子品牌</span><span>移动端</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="brand" data-date="2026-05" data-name="品牌表情包 IP KiKi">
+        <div class="card-media"><img src="assets/img/covers/gen-kiki.jpg" alt="品牌表情包 IP 封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">微信上架</span><span class="card-tag">品牌物料</span></div>
+        <h3>品牌表情包 IP「KiKi」</h3>
+        <p>推动品牌表情包 IP 完成微信平台上架与图形迭代，含著作权登记，让品牌以更轻的方式进入用户聊天场景。</p>
+        <div class="chips"><span>平台对接</span><span>图形迭代</span><span>著作权</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="report" data-date="2026-10" data-name="腾讯广告投放全流程">
+        <div class="card-media"><img src="assets/img/covers/gen-ads.jpg" alt="腾讯广告投放全流程封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">投放</span><span class="card-tag">报告与 SOP</span></div>
+        <h3>《腾讯广告投放全流程》</h3>
+        <p>从平台规则、文案、素材到人群包与广告上架的完整链路文档，作为投放侧的标准参考。</p>
+        <div class="chips"><span>投放链路</span><span>标准文档</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="report" data-date="2026-09" data-name="线下活动全流程 SOP ver2.0">
+        <div class="card-media"><img src="assets/img/covers/gen-sop.jpg" alt="线下活动全流程 SOP 封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">ver2.0</span><span class="card-tag">报告与 SOP</span></div>
+        <h3>《线下活动全流程 SOP》ver2.0</h3>
+        <p>展会与线下活动的全流程操作规范：筹备、物料、现场、复盘四个阶段，迭代至 ver2.0 归档飞书。</p>
+        <div class="chips"><span>活动执行</span><span>飞书归档</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="report" data-date="2026-05" data-name="第 139 届广交会参展报告">
+        <div class="card-media"><img src="assets/img/covers/gen-canton.jpg" alt="广交会参展报告封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">展会复盘</span><span class="card-tag">报告与 SOP</span></div>
+        <h3>第 139 届广交会一期参展报告</h3>
+        <p>参展数据、线索质量与现场执行的完整复盘报告，为后续展位决策提供依据。</p>
+        <div class="chips"><span>数据复盘</span><span>线索分析</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="report" data-date="2026-03" data-name="2025—2026 年度部门数据报告">
+        <div class="card-media"><img src="assets/img/covers/gen-annual.jpg" alt="年度部门数据报告封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">年度</span><span class="card-tag">报告与 SOP</span></div>
+        <h3>2025—2026 年度部门数据报告</h3>
+        <p>年度部门数据汇报材料的撰写与可视化优化，整合全年各平台数据口径。</p>
+        <div class="chips"><span>年度汇报</span><span>可视化</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="report" data-date="2026-02" data-name="飞书市场数据看板">
+        <div class="card-media"><img src="assets/img/covers/gen-dashboard.jpg" alt="飞书市场数据看板封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">数据基建</span><span class="card-tag">报告与 SOP</span></div>
+        <h3>飞书市场数据看板</h3>
+        <p>独立搭建的市场日常数据看板：多平台数据整合、统一口径、按月输出支撑决策。</p>
+        <div class="chips"><span>多维表格</span><span>统一口径</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="ai" data-date="2026-09" data-name="AI 生图创作实践">
+        <div class="card-media"><img src="assets/img/covers/gen-aigc.jpg" alt="AI 生图创作实践封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">AI × VISUAL</span><span class="card-tag">AI 创作</span></div>
+        <h3>AI 生图创作实践</h3>
+        <p>用 AI 生成海报方向图与物料创意稿：关键词迭代、风格锚定、批量出图筛稿，把品牌视觉的「想方向」环节从半天压缩到半小时。</p>
+        <div class="chips"><span>关键词迭代</span><span>风格锚定</span><span>快速出稿</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="ai" data-date="2026-09" data-name="AI 视频生成实践">
+        <div class="card-media"><img src="assets/img/covers/gen-aivideo.jpg" alt="AI 视频生成实践封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">AI × MOTION</span><span class="card-tag">AI 创作</span></div>
+        <h3>AI 视频生成实践</h3>
+        <p>探索 AI 视频在内容生产里的落地：单图关键帧延展、图生视频，再到剪映组装成片，为短视频生产补充一条低成本管线。</p>
+        <div class="chips"><span>图生视频</span><span>关键帧延展</span><span>剪映组装</span></div>
+      </div>
+
+      <div class="card work-card reveal" data-cat="web" data-date="2026-10" data-name="这个求职网站">
+        <div class="card-media"><img src="assets/img/covers/gen-website.jpg" alt="求职网站封面" loading="lazy"></div>
+        <div class="card-top"><span class="card-idx">个人项目</span><span class="card-tag">网页项目</span></div>
+        <h3>这个求职网站</h3>
+        <p>五页响应式站点：桌面 / 平板 / 手机三档重排版，滚动入场动画、作品筛选排序、PDF 简历下载，0 框架依赖——软件技术出身的前端功底。</p>
+        <div class="chips"><span>响应式</span><span>原生 JS</span><span>0 依赖</span></div>
+      </div>
+
+    </div>
+    <div class="empty-tip" id="emptyTip">这个分类下暂时没有作品。</div>
+  </section>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-quote">把内容从 0 做到 1，再把 1 沉淀成<em>团队可复制的流程</em>。</div>
+    <div class="foot-links">
+      <a href="projects.html">项目</a>
+      <a href="works.html">作品</a>
+      <a href="about.html">关于</a>
+    </div>
+    <div class="foot-quote">© <span id="year"></span> Lina · 深圳</div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
