@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>作品集 — Lina 傅春玲 · 品牌与内容运营</title>
+<meta name="description" content="Lina（傅春玲）精选作品集：视频号从 0 到 1、GEO 内容基建、腾讯广告投放、展会统筹、数据看板、AI 创作与年度报告网页版，七个案例的完整做法与产出。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="assets/img/avatar-lina.svg">
+</head>
+<body>
+<div id="progress"></div>
+<div id="glow"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/avatar-lina.svg" alt="Lina 傅春玲">
+      <span class="brand-divider"></span>
+      <span class="brand-name"><b>Lina</b> <span class="brand-cn">傅春玲</span> · <span data-career="role">品牌与内容运营</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="projects.html">项目</a>
+      <a href="works.html">内容作品</a>
+      <a href="portfolio.html" class="active">作品集</a>
+      <a href="about.html">关于我</a>
+    </div>
+    <button class="burger" id="burger" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">首页 <small>01</small></a>
+  <a href="projects.html">项目经历 <small>02</small></a>
+  <a href="works.html">内容作品 <small>03</small></a>
+  <a href="portfolio.html">作品集 <small>04</small></a>
+  <a href="about.html">关于我 <small>05</small></a>
+</div>
+
+<div class="wrap page-top">
+  <section>
+    <div class="section-head reveal">
+      <span class="idx">04 / CASE STUDIES</span>
+      <h2>作品集</h2>
+      <p>开头两支片子，一支 15 秒的品牌短片、一支 1 分 52 秒的知识讲解，从选题到成片都是自己做的。往下七个案例，讲清楚每件事是怎么做成的——遇到什么问题、我怎么拆、最后留下了什么。想翻全部清单可以去<a href="works.html" style="color:var(--red);">内容作品合集</a>。</p>
+    </div>
+
+    <!-- 精选影片 -->
+    <section class="films reveal" aria-labelledby="filmsTitle">
+      <div class="films-head">
+        <span class="films-idx">FEATURED FILMS</span>
+        <h3 id="filmsTitle">自己做的两支片子</h3>
+        <span class="films-note">点击播放，都有声音</span>
+      </div>
+
+      <div class="film-grid">
+        <!-- FILM 01 -->
+        <article class="film">
+          <div class="film-player cover-mkite" data-film>
+            <video data-film-video playsinline preload="none"
+                   data-src-hd="assets/video/mkite-15s-1080.mp4"
+                   data-src-uhd="assets/video/mkite-15s-4k60.mp4"></video>
+            <button class="film-play" type="button" data-film-play
+                    aria-label="播放影片：M.KiTE 一线牵，15 秒品牌短片">
+              <span class="ring" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M8 5.2v13.6L19 12 8 5.2z" fill="currentColor"/></svg>
+              </span>
+            </button>
+          </div>
+          <div class="film-body">
+            <div class="film-kicker">FILM 01 · 2026<b>00:15</b></div>
+            <h3>一线牵：一根线走完全程</h3>
+            <p>线从工牌上被抽出来，绷直成标题，串过四个节点、压到海面、搭着货船过去、爬进货架、按响门铃，最后系在 logo 上那个 i 的点。没有素材库，每一帧都是算出来的。</p>
+            <div class="film-spec">15″ · 4K60 母版 · 20 处音效点 · 900 帧逐帧渲染</div>
+          </div>
+        </article>
+
+        <!-- FILM 02 -->
+        <article class="film">
+          <div class="film-player cover-feynman" data-film>
+            <video data-film-video playsinline preload="none"
+                   data-src-hd="assets/video/feynman-1080.mp4"></video>
+            <button class="film-play" type="button" data-film-play
+                    aria-label="播放影片：费曼学习法点阵手账讲解，1 分 52 秒">
+              <span class="ring" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M8 5.2v13.6L19 12 8 5.2z" fill="currentColor"/></svg>
+              </span>
+            </button>
+          </div>
+          <div class="film-body">
+            <div class="film-kicker">FILM 02 · 2026<b>01:52</b></div>
+            <h3>费曼学习法：用点阵手账讲一遍</h3>
+            <p>四步讲透——选概念、讲给人听、找卡壳、简化重讲。文稿是新写的，不是套模板复现原片；第六段专门交代「四步法是后人归纳的，费曼本人没写过」。</p>
+            <div class="film-spec">1′52″ · 1080p30 · 7 段分镜 · 男声旁白</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="case-list">
+
+      <!-- CASE 01 -->
+      <article class="case reveal">
+        <div class="case-media is-tall">
+          <img src="assets/img/covers/video-channel-wall.jpg" alt="视频号内容封面墙" loading="lazy">
+          <span class="case-no">CASE 01</span>
+          <span class="case-year">2025—2026</span>
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role lead">主导 · 从 0 搭建</span>
+            <span class="case-cat">CONTENT SYSTEM</span>
+          </div>
+          <h3>视频号从 0 到 1：100+ 条内容，和一条能交接的生产线</h3>
+          <p class="case-problem">接手时公司没有视频内容，也没人知道第一条该拍什么。<b>真正的难点不是拍，是怎么让这件事在没有我的时候也能继续转。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>先定栏目，不追热点。</b>拆出「货代进阶指南」「枫筝学堂」「节日企划」三条线，每条对应一类人：想学东西的、已经在合作的、逢年过节要打招呼的。</li>
+            <li data-n="2"><b>把流程拆到别人能接手。</b>选题、脚本、拍摄、剪辑写成 10+ 份 SOP 归档飞书，同事照着就能拍，不用每次来问我。</li>
+            <li data-n="3"><b>视觉统一靠模板。</b>片头、字幕、封面的版式定死，几十条视频发出去，看起来始终是一个账号。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v"><i data-count="100">0</i><i>+</i></div><div class="k">条成片</div></div>
+            <div class="case-stat"><div class="v"><i data-count="3">0</i></div><div class="k">条内容线</div></div>
+            <div class="case-stat"><div class="v"><i data-count="10">0</i><i>+</i></div><div class="k">份 SOP</div></div>
+          </div>
+          <div class="chips"><span>内容策划</span><span>脚本</span><span>剪映</span><span>SOP 沉淀</span><span>品牌调性</span></div>
+        </div>
+      </article>
+
+      <!-- CASE 02 -->
+      <article class="case alt reveal">
+        <div class="case-media is-docs">
+          <div class="doc-bar">
+            <span class="case-no">CASE 02</span>
+            <span class="case-year">2026</span>
+          </div>
+          <div class="doc-strip">
+            <img src="assets/img/covers/geo-plan-1.jpg" alt="GEO 方案 · 内容策略与同行对比" loading="lazy">
+            <img src="assets/img/covers/geo-plan-2.jpg" alt="GEO 方案 · 7-30 天执行计划" loading="lazy">
+            <img src="assets/img/covers/geo-plan-3.jpg" alt="GEO 方案 · 最终建议" loading="lazy">
+          </div>
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role lead">主导 · 新方向</span>
+            <span class="case-cat">GEO / AI SEARCH</span>
+          </div>
+          <h3>让品牌在 AI 搜索里被提到：GEO 内容基建</h3>
+          <p class="case-problem">客户开始用豆包、DeepSeek 这类 AI 找物流商，问出来的答案里没有我们。<b>这件事没有现成作业可抄，只能自己摸。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>倒推内容源。</b>先弄清 AI 会引用哪些站点和内容，再反推我们该发什么、发在哪里。</li>
+            <li data-n="2"><b>建监测机制。</b>按月记录品牌在几个 AI 平台上的提及情况，用数据判断哪些动作真的有用。</li>
+            <li data-n="3"><b>回写进选题。</b>把验证过的结论变成日常选题规则，而不是做完一次就结束。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v">1 <i>套</i></div><div class="k">监测机制</div></div>
+            <div class="case-stat"><div class="v">多<i>平台</i></div><div class="k">覆盖追踪</div></div>
+            <div class="case-stat"><div class="v">按<i>月</i></div><div class="k">持续迭代</div></div>
+          </div>
+          <div class="chips"><span>GEO</span><span>AI 搜索</span><span>内容基建</span><span>数据监测</span></div>
+        </div>
+      </article>
+
+      <!-- CASE 03 -->
+      <article class="case reveal">
+        <div class="case-media is-wide">
+          <div class="doc-bar">
+            <span class="case-no">CASE 03</span>
+            <span class="case-year">2026</span>
+          </div>
+          <img src="assets/img/covers/tencent-ads-console.jpg" data-zoom
+               alt="腾讯广告投放管理平台 · 创意编辑界面" loading="lazy">
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role lead">主导 · 全流程</span>
+            <span class="case-cat">PAID MEDIA</span>
+          </div>
+          <h3>腾讯广告：从开户到投放，一路趟通</h3>
+          <p class="case-problem">账户从零开始，资质、素材规范、投放逻辑全是新的，<b>每一步都得自己走一遍。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>趟流程并写下来。</b>开户、资质、素材审核规则一路走通，整理成可复用的操作文档。</li>
+            <li data-n="2"><b>素材自己出。</b>投放图、落地页配图和日常海报共用一套视觉，不用等设计排期。</li>
+            <li data-n="3"><b>数据回流看板。</b>投放数据和自然流量一起进飞书看板，复盘时不用两边对账。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v">全<i>流程</i></div><div class="k">SOP 沉淀</div></div>
+            <div class="case-stat"><div class="v">投放 · 素材 · 复盘</div><div class="k">闭环打通</div></div>
+          </div>
+          <div class="chips"><span>广告投放</span><span>素材制作</span><span>数据复盘</span><span>流程文档</span></div>
+        </div>
+      </article>
+
+      <!-- CASE 04 -->
+      <article class="case alt reveal">
+        <div class="case-media is-duo">
+          <div class="doc-bar">
+            <span class="case-no">CASE 04</span>
+            <span class="case-year">多场</span>
+          </div>
+          <div class="duo-strip">
+            <img src="assets/img/covers/expo-booth-1.jpg" data-zoom
+                 alt="展会现场：枫筝海外仓展位与洽谈区" loading="lazy">
+            <img src="assets/img/covers/expo-booth-2.jpg" data-zoom
+                 alt="展会现场：12C46 主展位与现场团队" loading="lazy">
+          </div>
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role">主导执行</span>
+            <span class="case-cat">OFFLINE EVENTS</span>
+          </div>
+          <h3>展会统筹：从物料到现场，一场不落</h3>
+          <p class="case-problem">一年好几场展会，每次都像重新开始——物料、人员、展位临时协调，<b>经验留不下来。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>先做执行清单。</b>物料、人员分工、时间节点提前定死，现场少一点临时救火。</li>
+            <li data-n="2"><b>展后有复盘。</b>每场结束出复盘报告，把踩过的坑写进下一场的清单里。</li>
+            <li data-n="3"><b>内容跟着展会走。</b>展前预热、现场拍摄、展后回顾自己串起来，一次展会变成一批内容。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v">1 <i>套</i></div><div class="k">执行清单</div></div>
+            <div class="case-stat"><div class="v">每<i>场</i></div><div class="k">复盘报告</div></div>
+            <div class="case-stat"><div class="v">展前 · 现场 · 展后</div><div class="k">内容不断档</div></div>
+          </div>
+          <div class="chips"><span>线下统筹</span><span>展位视觉</span><span>现场拍摄</span><span>复盘</span></div>
+        </div>
+      </article>
+
+      <!-- CASE 05 -->
+      <article class="case reveal">
+        <div class="case-media is-stack">
+          <div class="doc-bar">
+            <span class="case-no">CASE 05</span>
+            <span class="case-year">长期</span>
+          </div>
+          <div class="stack-strip">
+            <img src="assets/img/covers/dashboard-table.png" data-zoom
+                 alt="飞书多维表格：市场数据记录总表" loading="lazy">
+            <img src="assets/img/covers/dashboard-charts.png" data-zoom
+                 alt="数据看板：曝光、线索、渠道占比可视化" loading="lazy">
+          </div>
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role lead">主导</span>
+            <span class="case-cat">DATA &amp; REPORT</span>
+          </div>
+          <h3>数据看板：把散在各处的数据收进一个口径</h3>
+          <p class="case-problem">数据分散在各个平台，每月汇报要手工拼表，<b>同一个指标还常常对不上。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>统一口径。</b>各平台数据收进飞书看板，指标定义和更新时间先讲清楚。</li>
+            <li data-n="2"><b>报告模板化。</b>月度报告做成模板，填数就能出稿，不用每次重做版式。</li>
+            <li data-n="3"><b>结论优先。</b>年度报告从数据里提炼判断，而不是把数字罗列一遍。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v">1 <i>套</i></div><div class="k">飞书看板</div></div>
+            <div class="case-stat"><div class="v">月度 · 年度</div><div class="k">报告体系</div></div>
+          </div>
+          <div class="chips"><span>飞书</span><span>数据可视化</span><span>报告撰写</span><span>口径统一</span></div>
+        </div>
+      </article>
+
+      <!-- CASE 06 -->
+      <article class="case alt reveal">
+        <div class="case-media">
+          <img src="assets/img/covers/gen-aigc.jpg" alt="AI 生图与视频创作" loading="lazy">
+          <span class="case-no">CASE 06</span>
+          <span class="case-year">持续</span>
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role">自主实践</span>
+            <span class="case-cat">AI CREATION</span>
+          </div>
+          <h3>AI 生图与视频：把「想方向」从半天压到半小时</h3>
+          <p class="case-problem">物料需求来得急，外部排期跟不上，<b>等不起的时候就自己上手。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>生图先定风格锚点。</b>关键词反复迭代，让不同批次的海报、封面看起来像同一套东西。</li>
+            <li data-n="2"><b>图生视频补产能。</b>一张产品图延展成关键帧，生成动态后用剪映组装成片。</li>
+            <li data-n="3"><b>用进真实生产。</b>这个网站的封面视觉全部由我生成，和品牌调性保持一致。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v">生<i>图</i></div><div class="k">方向稿 / 海报</div></div>
+            <div class="case-stat"><div class="v">图生<i>视频</i></div><div class="k">短视频管线</div></div>
+            <div class="case-stat"><div class="v">全<i>站</i></div><div class="k">视觉统一</div></div>
+          </div>
+          <div class="chips"><span>AI 生图</span><span>图生视频</span><span>剪映</span><span>视觉统一</span></div>
+        </div>
+      </article>
+
+      <!-- CASE 07 -->
+      <article class="case reveal">
+        <div class="case-media is-wide">
+          <div class="doc-bar">
+            <span class="case-no">CASE 07</span>
+            <span class="case-year">2026</span>
+          </div>
+          <img src="assets/img/covers/report-web-deck.jpg" data-zoom
+               alt="市场部年度报告网页版：线索概况、目录与总结页" loading="lazy">
+        </div>
+        <div class="case-body">
+          <div class="case-head">
+            <span class="case-role lead">数据整理 · 可视化</span>
+            <span class="case-cat">DATA REPORT</span>
+          </div>
+          <h3>年度报告：11 页，把一年的数收成一个能翻的网站</h3>
+          <p class="case-problem">一整年的线索、支出、ROI 散在展会登记表、几个平台后台和同事的临时表里，同一个指标能出三个版本。<b>汇报卡在第一周：到底以哪张表为准。</b></p>
+          <ol class="case-steps">
+            <li data-n="1"><b>先把口径对齐。</b>线索按「有效 = 成功开户」归口，展会、平台、内容各挂一个来源标签，同一批线索不会被两个渠道各算一次。</li>
+            <li data-n="2"><b>图表按要回答的问题选。</b>地区看密度用条形，月度看节奏用柱状，结构和来源用环形；一张图只回答一句话。</li>
+            <li data-n="3"><b>长表格不硬压进一页。</b>11 场展会的明细、逐笔支出放在可滚动区域里，字号不缩；讲的时候现场翻，会后导出的 PPTX 和网页是同一份。</li>
+          </ol>
+          <div class="case-stats">
+            <div class="case-stat"><div class="v" data-count="11">0</div><div class="k">页成稿</div></div>
+            <div class="case-stat"><div class="v" data-count="6">0</div><div class="k">个板块</div></div>
+            <div class="case-stat"><div class="v" data-count="2674">0</div><div class="k">条线索入表</div></div>
+          </div>
+          <div class="chips"><span>数据口径</span><span>图表选型</span><span>可视化</span><span>报告撰写</span></div>
+          <a class="case-link" href="https://situ-marketingreport.netlify.app/" target="_blank" rel="noopener">打开在线报告<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="cta-row reveal">
+      <a class="btn btn-primary" href="works.html">看全部内容作品 →</a>
+      <a class="btn btn-ghost" href="about.html">了解我是怎么工作的</a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-quote">把内容从 0 做到 1，再把 1 沉淀成<em>团队可复制的流程</em>。</div>
+    <div class="foot-links">
+      <a href="projects.html">项目</a>
+      <a href="works.html">作品</a>
+      <a href="portfolio.html">作品集</a>
+      <a href="about.html">关于</a>
+    </div>
+    <div class="foot-quote">© <span id="year"></span> Lina 傅春玲 · 深圳</div>
+  </div>
+</footer>
+<script src="js/site-config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
